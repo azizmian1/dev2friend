@@ -93,7 +93,7 @@
 
                 <!-- Security Type -->
                 <div class="form-group">
-                <div class="az-content-label mg-b-5">Security Type<span class="tx-danger"></span></div>
+                <div class="az-content-label mg-b-5">Security Type<span class="tx-danger">*</span></div>
                 <select name="project_security" class="form-control select2-no-search" required>
                     <option label="Choose one"></option>
                     <option value="PUBLIC">Public</option>

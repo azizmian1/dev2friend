@@ -72,7 +72,7 @@
                 <hr class="mg-y-30">
 
                 <!-- Email Address -->
-                <div class="az-content-label mg-b-5">Login Email<span class="tx-danger"</span></div>
+                <div class="az-content-label mg-b-5">Login Email<span class="tx-danger">*</span></div>
 
                 <div class="row row-sm wd-400">
                     <div class="col-lg mg-t-10 mg-lg-t-0">

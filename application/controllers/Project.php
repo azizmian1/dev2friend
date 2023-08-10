@@ -414,7 +414,7 @@ class Project extends CI_Controller {
             redirect(base_url() . 'Login');
         }
     }
-    /////////////////////////////////////////////////////////////////////////////
+
     public function removeMember($memberId,$projectId) {
         #Redirect to Admin dashboard after authentication
         if ($this->session->userdata('userLoginAccess') == 1) {
@@ -436,6 +436,6 @@ class Project extends CI_Controller {
             redirect(base_url() . 'Login');
         }
     }
-/////////////////////////////////////////////////////////////////////////////
+
 }
 ?>

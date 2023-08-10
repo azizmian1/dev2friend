@@ -147,7 +147,7 @@
                                     <td>'. $projectMem->FIRST_NAME . ' ' . $projectMem->LAST_NAME . '</td>
 
                                     <td>'. $projectMem->CONTACT_EMAIL . '</td>';
-                                    /////////////////////////////////////////////////////////////////////////////
+                                    
                                     if($projectMem->MEMBER_ID === $this->session->userdata('memberId'))
                                     {
                                         echo'
@@ -164,7 +164,7 @@
                                         //$array = array($projectMem->PROJECT_ID,$projectMem->MEMBER_ID);
                                         //$arg = implode(" ", $array);
                                     }
-                                    /////////////////////////////////////////////////////////////////////////////
+                                
                                     echo'
                                 </tr>';
                                 $rowCount++;
@@ -260,7 +260,7 @@
             </div>
         </div><!-- modal-dialog -->
     </div><!-- modal -->
-/////////////////////////////////////////////////////////////////////////////
+
 <div id="removemodal" class="modal">
     <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
@@ -280,7 +280,7 @@
         </div>
     </div>
 </div>
-/////////////////////////////////////////////////////////////////////////////
+
     <!-- EDIT MODAL -->
     <div id="editprojectmodal" class="modal">
       <div class="modal-dialog" role="document">

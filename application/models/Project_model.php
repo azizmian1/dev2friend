@@ -115,13 +115,13 @@ class Project_model extends CI_Model {
         $sql = "DELETE FROM ci_project_mem WHERE MEMBER_ID = '$memberId' AND PROJECT_ID = '$projectId'";
         $query = $this->db->query($sql);
     }
-    /////////////////////////////////////////////////////////////////////////////
+
      public function removeMember($projectId, $memberId) {
         // The correct syntax for delete in the sql
         $sql = "DELETE FROM ci_project_mem WHERE MEMBER_ID = '$memberId' AND PROJECT_ID = '$projectId'";
         $query = $this->db->query($sql);
     }
-    /////////////////////////////////////////////////////////////////////////////
+
 
     // function to count the projects
     public function countProjects() {

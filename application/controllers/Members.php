@@ -334,7 +334,7 @@ class Members extends CI_Controller {
                 $projects = (is_array($projects)) ? $projects : [$projects];
 
                 // Call delete function to not have duplicate data in the database.
-                //$this->project_model->deleteMemberProject($memberId);
+                $this->project_model->deleteMemberProject($memberId);
 
                 // Grab inputted project code
                 $user_code = $this->input->post('project_password');
